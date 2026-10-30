@@ -1,0 +1,51 @@
+# dictionnaires
+txt="le chat et le chien et le chat"
+cnt={}
+for w in split(txt):cnt[w]+=1
+.cnt
+.cnt["chat"],"chat" in cnt,"loup" in cnt,#cnt
+.get(cnt,"loup",-1)
+for k,v in cnt.items():put k,"=",v," "
+.
+ks=sorted(keys(cnt))
+.ks
+ages={"bob":31,"ana":25}
+ages["eve"]=40
+del(ages,"bob")
+.ages,sum(vals(ages))
+
+# structures
+type P x y
+type Pers nom age:i
+p=P(1,2.5)
+p.x+=0.5
+.p,p.x,p.y
+q=P(1.5,2.5)
+.p==q
+gens=[Pers("bob",31),Pers("ana",25),Pers("eve",40)]
+age a=a.age
+sort(gens,age)
+.gens
+.max(gens,age).nom
+older(a,n)
+ a.age+=n
+older(gens[0],10)
+.gens[0]
+
+# comprehensions
+sq=[i*i for i in range(6)]
+.sq
+.[x for x in sq if x%2==0]
+.[upper(w) for w in ["a","b"]]
+.[k for k in cnt if cnt[k]>1]
+
+# liste chainee
+type Node v next:Node
+n=Node(1)
+n.next=Node(2)
+n.next.next=Node(3)
+c=n
+while c
+ put c.v," "
+ c=c.next
+.

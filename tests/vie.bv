@@ -1,0 +1,18 @@
+# Jeu de la vie de Conway, 20 générations d'un planeur
+W=12;H=8
+g=[[0]*W for i in range(H)]
+for p in [[1,0],[2,1],[0,2],[1,2],[2,2]]:g[p[1]][p[0]]=1
+voisins(g,x,y)
+ s=0
+ for dy=-1<=1
+  for dx=-1<=1
+   if dx or dy:s+=g[(y+dy)%H][(x+dx)%W]
+ s
+for t<20
+ n=[[0]*W for i in range(H)]
+ for y<H
+  for x<W
+   v=voisins(g,x,y)
+   n[y][x]=v==3 or (v==2 and g[y][x])?1:0
+ g=n
+for r in g:.join([c?"#":"." for c in r],"")

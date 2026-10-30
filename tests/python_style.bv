@@ -1,0 +1,17 @@
+cnt=0
+bump()
+ global cnt
+ cnt+=1
+def norm(a:f,b:f)->f:
+    return math.sqrt(a*a+b*b)
+a=[3,1,2]
+a.sort()
+a.append(7)
+for i,x in enumerate(a):put i,":",x," "
+print
+for c in "abc":put upper(c)
+print
+x=5
+print 0<x<10,True and not False,norm(3,4)
+bump();bump()
+print cnt,x in a

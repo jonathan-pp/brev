@@ -1,0 +1,9 @@
+# Les 5 mots les plus fréquents d'un texte lu sur l'entrée standard
+# usage : brev run mots.bv < texte.txt
+n={}
+for l in lines()
+ for w in split(lower(l)):n[w]+=1
+ws=keys(n)
+cnt w=n[w]
+rsort(ws,cnt)
+for w in ws[:5]:."{w}: {n[w]}"

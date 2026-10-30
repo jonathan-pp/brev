@@ -1,0 +1,9 @@
+n=int(arg(1))
+best=0;arg_=0
+for i=1<n
+ x=i;s=0
+ while x!=1
+  x=x%2==0?x//2:3*x+1
+  s++
+ if s>best:best=s;arg_=i
+print arg_,best

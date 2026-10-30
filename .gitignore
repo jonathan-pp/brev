@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.bin
+bench/*.bin
+/a.out

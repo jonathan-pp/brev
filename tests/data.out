@@ -1,0 +1,16 @@
+{'le': 3, 'chat': 2, 'et': 2, 'chien': 1}
+2 true false 4
+-1
+le=3 chat=2 et=2 chien=1 
+['chat', 'chien', 'et', 'le']
+{'ana': 25, 'eve': 40} 65
+P(1.5, 2.5) 1.5 2.5
+true
+[Pers('ana', 25), Pers('bob', 31), Pers('eve', 40)]
+eve
+Pers('ana', 35)
+[0, 1, 4, 9, 16, 25]
+[0, 4, 16]
+['A', 'B']
+['le', 'chat', 'et']
+1 2 3 

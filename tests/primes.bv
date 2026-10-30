@@ -1,0 +1,8 @@
+# nombres premiers < n, lu en argument
+n=int(arg(1))
+p=[true]*n
+for i=2<n
+ if p[i]
+  put i," "
+  for j=i*i<n,i:p[j]=false
+print

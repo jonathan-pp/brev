@@ -1,0 +1,18 @@
+# Gestion de stock : structures + dictionnaire
+type Art nom prix:f qte
+SEUIL=5
+stock={}
+add(nom,prix,qte)
+ stock[nom]=Art(nom,prix,qte)
+add("stylo",1.2,40);add("cahier",3.5,3);add("gomme",0.8,12)
+vend(nom,q)
+ a=stock[nom]
+ if a.qte<q:."pas assez de {nom}";return
+ a.qte-=q
+ ."vendu {q} {nom} pour {a.prix*q:.2f} €"
+vend("stylo",10);vend("cahier",5)
+total=0.0
+for nom,a in stock.items()
+ total+=a.prix*a.qte
+ if a.qte<SEUIL:."à commander : {nom} ({a.qte})"
+."valeur du stock : {total:.2f} €"

@@ -1,0 +1,12 @@
+MAJ=18
+NOM="Brev"
+.NOM,"te salue"
+n=??"Nom ? "
+a=?"Age ? "
+t=?."Taille ? "
+.a>=MAJ?"{n} est majeur":"{n} est mineur"
+.n,"mesure",t,"m"
+for i<a:c+=i
+.c
+.
+.5

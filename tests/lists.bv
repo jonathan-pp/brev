@@ -1,0 +1,14 @@
+a=[5,3,8,1,9,2]
+.a[1:4],a[-2:],a[:2]
+ins(a,0,7);.a
+.pop(a),del(a,0),a
+.find(a,8),count(a,3),has(a,4),8 in a
+b=sorted(a);.b,bsearch(b,5),uniq([3,1,3,2,1])
+rsort(b);.b,revd(b)
+h=[]
+for x in [5,1,4,2]:hpush(h,x)
+.hpop(h),hpop(h),h
+.min(a),max(a),sum([1.5,2.5]),[1,2]+[3],[0]*3,#range(2,10,3)
+m=[[0]*3 for i in range(2)]
+m[1][2]=7;.m
+c=a.copy();c[0]=99;.a[0]!=c[0]

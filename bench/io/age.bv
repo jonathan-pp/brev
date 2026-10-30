@@ -1,0 +1,4 @@
+MAJ=18
+n=??"Nom ? "
+a=?"Age ? "
+.n,"est",a>=MAJ?"majeur":"mineur"

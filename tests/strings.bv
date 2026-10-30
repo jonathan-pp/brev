@@ -1,0 +1,12 @@
+s="  Bonjour le Monde  "
+t=trim(s)
+.t,#t,upper(t),lower(t)
+.t[0],t[-1],t[3:7],rev("abc")
+.split("a,b,,c",","),join(["x","y"],"+"),"-"*5
+.find(t,"le"),has(t,"Monde"),count("banana","an"),starts(t,"Bon"),ends(t,"de")
+.replace(t,"o","0"),int("42")+1,float("2.5")*2,str(7)+"!"
+.ord("A"),chr(66),hex(255),bin(5),fmt(PI,3)
+.isdigit("123"),isdigit("12a"),isalpha("abc")
+n=3;.f"n={n} sq={n*n} pi={PI:.2f}"
+for c in "hé":put c,"|"
+.

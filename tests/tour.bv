@@ -1,0 +1,37 @@
+# test general
+fib n
+ n<2?n:fib(n-1)+fib(n-2)
+
+sq x=x*x
+avg a
+ s=0
+ for x in a:s+=x
+ s/#a
+
+sgn x
+ if x>0:1
+ elif x<0:-1
+ else:0
+
+print fib(20),sq(7),sq(2.5)
+a=[5,3,9,1]
+sort(a)
+print a,#a,a[-1],sum(a),max(a)
+print avg(a),sgn(-4)
+b=[]
+for i<5:b<<i*i
+print b
+s="hello"
+print "{s} has {#s} chars, up={upper(s)} {3.14159:.2f}"
+w=split("a b  c")
+print w,join(w,"-")
+x,y=1,2
+x,y=y,x
+print x,y,7//2,-7//2,-7%3,2**10,7/2
+for i=10>0,-3:put i," "
+print
+n=0
+while true
+ n++
+ if n>=3:break
+print n,"done"
